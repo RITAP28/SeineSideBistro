@@ -1,0 +1,40 @@
+.menu-featured-card {
+    width: 300px;
+    height: 250px;
+    margin: 15px 30px 10px 15px;
+}
+
+.menu-item-image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px black;
+}
+
+.menu-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 450ms;
+}
+
+.menu-item-name {
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.menu-item-price {
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.menu-item-image img:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}

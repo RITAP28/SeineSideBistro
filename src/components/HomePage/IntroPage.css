@@ -1,0 +1,111 @@
+.Intro {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 125vh;
+}
+
+.intro-left {
+    width: 46%;
+}
+
+.intro-left img {
+    width: 100%;
+    height: 120vh;
+    margin-left: 5vw;
+}
+
+.intro-right {
+    width: 54%;
+}
+
+.intro-right-header {
+    width: 100%;
+}
+
+.intro-right-header h2 {
+    color: aliceblue;
+    font-family: 'Ms Madi', cursive;
+    font-size: 10rem;
+    margin-left: -1.5rem;
+    margin-top: 10vh;
+}
+
+.intro-right-header h3 {
+    color: rgb(97, 179, 97);
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 9vw;
+    font-size: 8rem;
+    margin-top: -75px;
+}
+
+.intro-right-secondmain {
+    width: 100%;
+}
+
+.intro-right-secondmain h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-left: 3vw;
+    margin-top: 4vh;
+}
+
+.intro-right-secondmain p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10.5vw;
+    font-size: 2rem;
+    color: yellow;
+}
+
+.intro-right-thirdmain {
+    width: 100%;
+}
+
+.intro-right-thirdmain p {
+    font-family: 'Lato', sans-serif;
+    margin-top: 8vh;
+    margin-left: 4.6vw;
+    margin-right: 20vw;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.intro-right-ending {
+    width: 100%;
+}
+
+.intro-right-ending p {
+    font-family: 'Lato', sans-serif;
+    margin-left: 4.6vw;
+    margin-right: 20vw;
+    margin-top: 7.5vh;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.intro-right-button {
+    width: 100%;
+}
+
+.right-button {
+    margin-left: 16vw;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 7vh;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.right-button:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    background-color: rgb(255, 111, 0);
+}

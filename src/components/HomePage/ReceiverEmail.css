@@ -1,0 +1,86 @@
+.ReceiveEmail {
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+}
+
+.receiveEmail-headline {
+    width: 100%;
+}
+
+.receiveEmail-headline h3 {
+    padding: 10px;
+    margin-left: 27vw;
+    padding-top: 6vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 2.6rem;
+}
+
+.receiveEmail-form {
+    width: 50%;
+    margin-left: 27.7vw;
+    margin-top: -10px;
+}
+
+.receiveEmail-form label {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.receiveEmail-form input {
+    margin-top: 7px;
+    width: 80%;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.receiveEmail-form button {
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: orange;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+}
+
+.receiveEmail-form button:hover {
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s;
+}
+
+.receiveEmail-connect {
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 20px;
+}
+
+.receiveEmail-icons {
+    margin-left: 25vw;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.receiveEmail-icons img {
+    width: 5%;
+    height: 5%;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.receiveEmail-icons img:hover {
+    cursor: pointer;
+}

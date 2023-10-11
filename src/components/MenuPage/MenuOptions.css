@@ -1,0 +1,148 @@
+.menu-options {
+    height: 120vh;
+    background-color: white;
+}
+
+.menu-header h3 {
+    margin-top: 20px;
+    padding-top: 5vh;
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.menu-header p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.first-grid-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 25px;
+    /* margin-left: 2px; */
+}
+
+.first-column {
+    width: 98%;
+    height: 48vh;
+    background-image: url("./menuThumbnails/food1.png");
+    background-size: cover;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.second-column {
+    width: 98%;
+    height: 48vh;
+    background-image: url("./menuThumbnails/food2.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.third-column {
+    width: 98%;
+    height: 48vh;
+    background-image: url("./menuThumbnails/food3.png");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.second-grid-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: 2px;
+}
+
+.second-first-column {
+    width: 98%;
+    height: 40vh;
+    background-image: url("./menuThumbnails/momos.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.second-second-column {
+    width: 98%;
+    height: 40vh;
+    background-image: url("./menuThumbnails/wine1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.second-third-column {
+    width: 98%;
+    height: 40vh;
+    background-image: url("./menuThumbnails/wine4.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.second-fourth-column {
+    width: 98%;
+    height: 40vh;
+    background-image: url("./menuThumbnails/food4.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.first-row:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.second-row:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.first-row h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 2.5rem;
+}
+
+.onPage-btn {
+    margin-left: 45%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.onPage-btn:hover {
+    cursor: pointer;
+}
+
+.second-row h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 2.5rem;
+}
+
+.sec-onPage-btn {
+    margin-left: 40%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.sec-onPage-btn:hover {
+    cursor: pointer;
+}

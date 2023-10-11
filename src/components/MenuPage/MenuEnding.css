@@ -1,0 +1,243 @@
+.menuEnding {
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    padding-top: 3vh;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 15vh;
+}
+
+.menuEnding-grid {
+    /* background-color: beige; */
+    /* border: 1px black solid; */
+    border: none;
+}
+
+.ending-logo {
+    font-family: 'Ms Madi', sans-serif;
+    color: rgb(97, 179, 97);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 8.4vw;
+}
+
+.ending-logo:hover {
+    cursor: pointer;
+}
+
+.ending-subscribe {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.subscription-form {
+    margin-left: 5vw;
+    margin-top: -4vh;
+}
+
+.subscription-form input {
+    width: 45%;
+    height: 7vh;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+
+.subscription-form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.submit-btn {
+    height: 7vh;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: rgb(72, 153, 72);
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(104, 189, 104);
+    transition: 0.3s;
+}
+
+.form-p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: gray;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.form-p a {
+    color: gray;
+}
+
+.ending-navbar {
+    display: flex;
+}
+
+.ending {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 13.5vw;
+}
+
+.ending li {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ending li:hover {
+    cursor: pointer;
+}
+
+.payment-options {
+    display: flex;
+    width: 65%;
+    height: 80%;
+    margin: auto;
+    margin-right: 0;
+}
+
+.payment-option {
+    height: 37px;
+    width: 38px;
+    margin-top: 7vh;
+    margin-left: 24px;
+}
+
+.payment-option:hover {
+    cursor: auto;
+}
+
+
+/* .square {
+    background-image: url("./paymentOptions/square.png");
+    background-size: cover;
+} */
+
+.apple {
+    background-image: url("./paymentOptions/apple-pay.png");
+    background-size: cover;
+}
+
+.google {
+    background-image: url("./paymentOptions/google-pay.png");
+    background-size: cover;
+}
+
+.visa {
+    background-image: url("./paymentOptions/visa.png");
+    background-size: cover;
+}
+
+.mastercard {
+    background-image: url("./paymentOptions/mastercard.png");
+    background-size: cover;
+}
+
+.cash {
+    background-image: url("./paymentOptions/cash.png");
+    background-size: cover;
+}
+
+.discover {
+    background-image: url("./paymentOptions/discover.png");
+    background-size: cover;
+}
+
+.paypal {
+    background-image: url("./paymentOptions/paypal.png");
+    background-size: cover;
+}
+
+.rupay {
+    background-image: url("./paymentOptions/Rupay.png");
+    background-size: cover;
+}
+
+
+/* .payment-option img {
+    width: 38px;
+    height: 25px;
+    object-fit: cover;
+} */
+
+.social-options {
+    display: flex;
+    width: 40%;
+    height: 60%;
+    margin-top: 6vh;
+    margin-left: 5vw;
+}
+
+.social-option {
+    width: 9%;
+    height: 40%;
+    margin: 4px;
+    margin-left: 6px;
+    border-radius: 100%;
+}
+
+.social-option:hover {
+    cursor: pointer;
+}
+
+.linkedin {
+    background-image: url("./socialMedia/linkedin.png");
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url("./socialMedia/insta2.png");
+    background-size: cover;
+}
+
+.whatsapp {
+    background-image: url("./socialMedia/whatsapp.png");
+    background-size: cover;
+}
+
+.twitter {
+    background-image: url("./socialMedia/twitter.png");
+    background-size: cover;
+    background-color: white;
+}
+
+.copyright {
+    background-image: url("./paymentOptions/copyright.png");
+    background-size: cover;
+    margin-left: 2vw;
+}
+
+.copyright:hover {
+    cursor: auto;
+}
+
+.year {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: -3px;
+    padding-top: 0vw;
+}
+
+.year:hover {
+    cursor: auto;
+}
